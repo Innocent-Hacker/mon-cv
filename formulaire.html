@@ -1,0 +1,67 @@
+<!--FORMULAIRE DE CONTACT-->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Formulaire de contact pour le portfolio de Daouda Camara."
+    />
+    <link rel="stylesheet" href="../css/formulaire.css" />
+    <script src="../js/formulaire.js"></script>
+    <title>Contact - Daouda Camara</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="#" method="post">
+        <h2>Contactez-moi</h2>
+        <div class="form-group">
+          <label for="prenom">Prénom :</label>
+          <input
+            type="text"
+            id="prenom"
+            name="prenom"
+            placeholder="Votre prénom"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="name">Nom :</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Votre nom"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email :</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="votre.email@example.com"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message :</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Votre message ici..."
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+        <div id="success-message"></div>
+      </form>
+      <p class="back-link">
+        <a href="../html/cv_classy.html">Retour au CV</a>
+      </p>
+    </div>
+  </body>
+</html>
